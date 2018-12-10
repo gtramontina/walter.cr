@@ -7,7 +7,16 @@ authors:
 
 license: MIT
 
+dependencies:
+  crz:
+    github: dhruvrajvanshi/crz
+    version: 1.0.0
+
 development_dependencies:
   ameba:
     github: veelenga/ameba
     version: 0.8.1
+
+  minitest:
+    github: ysbaddaden/minitest.cr
+    version: 0.4.1

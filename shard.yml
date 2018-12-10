@@ -34,6 +34,14 @@ dependencies:
     version: 1.0.0
 
 development_dependencies:
+  walter.cr:
+    github: gtramontina/walter.cr
+    version: 0.1.0
+
+  ghooks.cr:
+    github: gtramontina/ghooks.cr
+    version: 0.1.0
+
   ameba:
     github: veelenga/ameba
     version: 0.8.1

@@ -1,0 +1,5 @@
+expression: \.cr$
+command:
+  - bin/ameba
+  - crystal tool format
+  - git add

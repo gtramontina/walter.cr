@@ -16,6 +16,10 @@ shards:
     github: chenkovsky/docopt.cr
     commit: 2d10b1facce0a8b9849e23e3263d553d9e4b1c66
 
+  ghooks.cr:
+    github: gtramontina/ghooks.cr
+    version: 0.1.0
+
   griffith:
     github: gtramontina/griffith.cr
     version: 1.0.0
@@ -27,4 +31,8 @@ shards:
   spinner-frames:
     github: gtramontina/spinner-frames.cr
     version: 1.0.0
+
+  walter:
+    github: gtramontina/walter.cr
+    version: 0.1.0
 

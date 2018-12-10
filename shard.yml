@@ -1,0 +1,8 @@
+name: walter.cr
+version: 0.1.0
+crystal: 0.27.0
+
+authors:
+  - Guilherme J. Tramontina <guilherme.tramontina@gmail.com>
+
+license: MIT

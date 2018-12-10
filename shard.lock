@@ -4,11 +4,27 @@ shards:
     github: veelenga/ameba
     version: 0.8.1
 
+  ansi-escapes:
+    github: gtramontina/ansi-escapes.cr
+    version: 1.0.0
+
   crz:
     github: dhruvrajvanshi/crz
+    version: 1.0.0
+
+  docopt:
+    github: chenkovsky/docopt.cr
+    commit: 2d10b1facce0a8b9849e23e3263d553d9e4b1c66
+
+  griffith:
+    github: gtramontina/griffith.cr
     version: 1.0.0
 
   minitest:
     github: ysbaddaden/minitest.cr
     version: 0.4.1
+
+  spinner-frames:
+    github: gtramontina/spinner-frames.cr
+    version: 1.0.0
 

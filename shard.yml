@@ -5,9 +5,30 @@ crystal: 0.27.0
 authors:
   - Guilherme J. Tramontina <guilherme.tramontina@gmail.com>
 
+targets:
+  walter:
+    main: src/walter.cr
+
+executables:
+  - walter
+
+scripts:
+  postinstall: CRFLAGS=--release make build && (mkdir -p ../../bin; cp bin/walter ../../bin)
+
 license: MIT
 
 dependencies:
+  docopt:
+    github: chenkovsky/docopt.cr
+
+  griffith:
+    github: gtramontina/griffith.cr
+    version: 1.0.0
+
+  spinner-frames:
+    github: gtramontina/spinner-frames.cr
+    version: 1.0.0
+
   crz:
     github: dhruvrajvanshi/crz
     version: 1.0.0

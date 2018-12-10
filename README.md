@@ -4,6 +4,10 @@
   <sup><sub><sup><sub>KEEPING YOUR CRYSTAL CLEAN</sub></sup></sub></sup>
 </h1>
 
+<p align="center">
+  <a href="https://travis-ci.org/gtramontina/walter.cr" title="Master build status"><img src="https://travis-ci.org/gtramontina/walter.cr.svg?branch=master" alt="Master build status"></a>
+</p>
+
 ## What <img src="https://png.icons8.com/wired/96/000000/help.png" align="right" width="24">
 
 `walter` is a command line tool that aims to keep your crystal clean, simplifying the routine checks on staged files that are ready to be committed and help you maintain a healthy and clean codebase.

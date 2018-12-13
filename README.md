@@ -25,7 +25,7 @@ This tool allows you to specify a series of commands to run on staged files that
 Add the following entry to your `shard.yml` on the `development_dependencies` section and run `shards install`.
 
 ```yaml
-walter:
+walter.cr:
   github: gtramontina/walter.cr
   version: <current-version>
 ```
